@@ -12,7 +12,7 @@ Plex now uses its own version of SQLite, so this will pipe an UPDATE command int
 ## BEFORE YOU RUN THIS !
 
 - Make a backup of your Plex database file just in case!
-- I had problems running this script on Windows. Linux or OSX are much happier piping a command into another program I guess.
+- I had problems running this script on Windows. Linux or OSX are much happier piping a command into another program I guess. Piping the command was the only way I could get it to pop these updates into the database as one-line commands.
 
 ### Recommended Instructions:
 * Required: Python 3.x
