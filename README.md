@@ -3,11 +3,11 @@ If viewing movies in Plex by "Date Added" orders the library all wrong, this cou
 
 I like to view my library by "Date Added" so that, as the library grows, I can see what is most recent.
 
-I started using Plex with a decent sized library so, when I created the Plex server, the Added Dates for each movie were all over the place.
+I started using Plex with a decent sized library already so, when I created the Plex server, the "Date Added" for each movie were all over the place.
 
-Since there is no option to tell it to use the movie's folder's creation date, I decided to make an option.
+The solution I would've liked is to have it adopt the movie's folder's creation date, so I to made the option.
 
-Plex now uses its own version of SQLite, so this will pipe an UPDATE command into Plex SQLite.  I piped the command so that I could run these as single line commands and keep looping through my movies folder. For me, this ran on approx. 650 movies in 90 seconds.
+Plex now uses its own version of SQLite, so this will send an UPDATE command into Plex SQLite. It piped the command so that they can remain one-line commands and keep looping through my movies folder. For me, this ran on approx. 650 movies in 94 seconds.
 
 ## BEFORE YOU RUN THIS !
 
