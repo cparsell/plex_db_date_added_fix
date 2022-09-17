@@ -1,5 +1,5 @@
 # plex_db_date_added_fix
-If viewing movies in Plex by "Date Added" is all wrong, this could fix it.
+If viewing movies in Plex by "Date Added" orders the library all wrong, this could fix it.
 
 I like to view my library by "Date Added" so that, as the library grows, I can see what is most recent.
 
